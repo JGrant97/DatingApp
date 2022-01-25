@@ -10,6 +10,10 @@
     <Script Include="**" Exclude="*.esproj;**\node_modules\**" />
   </ItemGroup>
   <ItemGroup>
+    <Script Remove=".angular\cache\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".angular\" />
     <Folder Include="src\app\Models\" />
     <Folder Include="src\app\_services\" />
   </ItemGroup>
